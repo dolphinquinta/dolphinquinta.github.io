@@ -8,7 +8,6 @@
   outline: none;
   border: none;
   text-decoration: none;
-  text-transform: capitalize;
   -webkit-transition: all .2s linear;
   transition: all .2s linear;
 }
@@ -31,21 +30,21 @@ html{
     scroll-padding-top: 9rem;
 }
 
-html::-webkit-scrollbar {
+html::-webkit-scrollbar{
     width: 1rem;
   }
   
-  html::-webkit-scrollbar-track {
+  html::-webkit-scrollbar-track{
     background: #111;
   }
   
-  html::-webkit-scrollbar-thumb {
+  html::-webkit-scrollbar-thumb{
     background: #29d9d5;
     border-radius: 5rem;
   }
 
 body{
-     background: #07232e;
+     background: #240548;
      overflow-x: hidden;
 }
 
@@ -53,17 +52,17 @@ section{
     padding: 3rem 9%;
 }
 
-.heading {
+.heading{
   text-align: center;
   margin-bottom: 2rem;
 }
 
-.heading span {
+.heading span{
   color: #29d9d5;
   font-size: 2rem;
 }
 
-.heading h1 {
+.heading h1{
   font-size: 4rem;
   color: #fff;
 }
@@ -91,7 +90,6 @@ section{
     left: 0;
     right: 0;
     z-index: 1000;
-    /*background: #17475c;*/
     background-image: linear-gradient(310deg, #244b49 0, #06203e 25%, #4d4468 50%, #354169 75%, #272c72 100%);
     display: -web kit-box;
     display: -ms-flexbox;
@@ -242,7 +240,7 @@ section{
   .acerca .content p{
     padding: 1rem 0;
     font-size: 1.4rem;
-    color: #9285c8;
+    color: #e1dcf3;
     line-height: 2;
   }
   
@@ -268,7 +266,7 @@ section{
 
 .sevicios .box-container .box i{
   font-size: 4rem;
-  color: #29d9d5;
+  color: #754dad;
   margin-bottom: 2rem;
 }
 
@@ -356,7 +354,7 @@ section{
 }
 
 .footer .box-container .box p{
-  font-size: 1.4rem;
+  font-size: 2rem;
   color: #f1ebeb;
   padding: 1rem 0;
   line-height: 2;
@@ -365,7 +363,7 @@ section{
 
 .footer .box-container .box p i{
   padding-right: .5rem;
-  color: #29d9d5;
+  color: #e29de5;
 }
 
 
@@ -377,29 +375,29 @@ section{
   height: 4.5rem;
   width: 4.5rem;
   line-height: 4rem;
-  font-size: 2rem;
+  font-size: 3rem;
   border-radius: 70%;
   font-size: 3.7rem;
-  border: 0.2rem solid #015754;
-  color: #7dc5c2;
+  border: 0.2rem solid #240548;
+  color: #ae94e4;
   margin-right: .5rem;
   text-align: center;
 }
 
 .footer .box-container .box .share a:hover{
-  background: #71d4ea;
+  background: #c29de6;
   color: #111;
 }
 
 .footer .box-container .box .links{
-  font-size: 1.4rem;
+  font-size: 2rem;
   color: #74bff9;
   padding: 1rem 0;
   display: block;
 }
 
 .footer .box-container .box .links:hover{
-  color: #8718a3;
+  color: #ae6fbe;
 }
 
 .footer .box-container .box .links:hover i{
