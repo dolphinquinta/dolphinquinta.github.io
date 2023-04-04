@@ -424,6 +424,7 @@ section{
     section{
         padding: 3rem 2rem;
     }
+
 }
 
 
@@ -462,6 +463,15 @@ section{
     .casa .content h3{
         font-size: 9vw;
     }
+
+    .servicios .box-container .box{
+      width: 35%;
+    }
+
+    .ubicacion .map-body{
+      width: 90%;
+    }
+
 }
 
 
@@ -477,10 +487,6 @@ section{
       }
     .casa .content span{
         font-size: 10vw;
-      }
-
-    .acerca .content h3{
-        font-size: 3.5rem;
       }
 
       .map-body{
