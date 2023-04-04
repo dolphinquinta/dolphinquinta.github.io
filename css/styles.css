@@ -412,7 +412,7 @@ section{
 
 
 @media (max-width:991px){
-    
+
     html{
         font-size: 100%;
     }
@@ -490,10 +490,10 @@ section{
 }
 
 
-@media (max-width:768px){
+@media (max-width:768px){ 
     #menu-btn{
         display: inline-block;
-    }
+     }
 
     .casa{
         margin-top: 10rem;
@@ -508,7 +508,7 @@ section{
     .servicios .box-container .box{
       width: 35%;
     }
-
+  
     .ubicacion .map-body{
       width: 90%;
     }
