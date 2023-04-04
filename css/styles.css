@@ -414,16 +414,78 @@ section{
 @media (max-width:991px){
     
     html{
-        font-size: 55%;
+        font-size: 100%;
     }
 
     .header{
         padding: 1.5rem 2rem;
     }
 
+    #menu-btn{
+      display: inline-block;
+    }
+
+    .header .navbar{
+      position: absolute;
+      top: 99%;
+      left: 0;
+      right: 0;
+      background-image: linear-gradient(310deg, #244b49 0, #06203e 25%, #4d4468 50%, #354169 75%, #272c72 100%);
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+          clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+
+  .header .navbar.active{
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+              clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+  .header .navbar a{
+    margin: 2rem;
+    font-size: 2rem;
+    display: block;
+  }
+
+
     section{
         padding: 3rem 2rem;
     }
+
+    .casa{
+      margin-top: 10rem;
+    }
+  .casa .content span{
+      font-size: 8vw;
+    }
+  .casa .content h3{
+      font-size: 9vw;
+  }
+
+  .servicios .box-container .box{
+    width: 35%;
+  }
+
+  .galeria .box-container{
+    width: 80%;
+    margin-left: 60px;
+    margin-right: 10px;
+  }
+  
+
+  .ubicacion .map-body{
+    width: 100%;
+    align-content: center;
+  }
+
+  .footer .box .links:hover{
+    width: 70%;
+    align-content: center;
+  }
+
+  .footer .box-container .share{
+    width: 100%;
+    align-content: center;
+  }
 
 }
 
@@ -431,27 +493,6 @@ section{
 @media (max-width:768px){
     #menu-btn{
         display: inline-block;
-    }
-
-    .header .navbar{
-        position: absolute;
-        top: 99%;
-        left: 0;
-        right: 0;
-        background-image: linear-gradient(310deg, #244b49 0, #06203e 25%, #4d4468 50%, #354169 75%, #272c72 100%);
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    }
-
-    .header .navbar.active{
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-                clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-      }
-
-    .header .navbar a{
-      margin: 2rem;
-      font-size: 2rem;
-      display: block;
     }
 
     .casa{
